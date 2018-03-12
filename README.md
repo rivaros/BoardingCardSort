@@ -16,7 +16,7 @@ to generate ordered set of BoardingCards.
 There are some restrictions applied, like you cannot go by train from NY to London (but this is not related to the task).
 2. After that set is shuffled (output presented as set of shuffled instructions).
 3. The test initializes PathFinder service, and calls getPath() method to order the shuffled set.
-4. If initial ordered array and calculated ordered array do match, test completes.
+4. If initial ordered array and calculated ordered array do match, test completes SUCESSFULLY.
 5. The new ordered set of instructions is displayed.
 
 
