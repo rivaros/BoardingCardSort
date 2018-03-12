@@ -1,0 +1,3950 @@
+PHPUnit 6.1.4 by Sebastian Bergmann and contributors.
+
+====================== INITIAL DATA =========================
+Airports:
+[
+    "Barajas international airport",
+    "Cuatro Vientos Airport",
+    "Barcelona International Airport",
+    "Girona-Costa Brava Airport",
+    "Berlin Tegel Airport",
+    "Stockholm Arlanda Airport",
+    "JFK Airport",
+    "La Guardia Airport",
+    "Dubai International Airport",
+    "Heathrow Airport",
+    "Gatwick Airport"
+]
+Railway Stations:
+[
+    "Madrid Central Station",
+    "Barcelona Central Station",
+    "Berlin Central Station",
+    "Stockholm Central Station",
+    "New-York Central Station",
+    "Dubai Central Station",
+    "London Central Station"
+]
+Spots:
+[
+    "Gran Via, Madrid",
+    "Plaza Mayor, Madrid",
+    "Paseo del Prado",
+    "Passeig de Gracia, Barcelona",
+    "Mercat de la Boqueria, Barcelona",
+    "Berlin Zoological Garden",
+    "Friedrichstrasse",
+    "Stockholm Palace, Stockholm",
+    "Nobel Museum, Sockholm",
+    "Empire State Building, New York",
+    "Central Park, New York",
+    "Deira, Dubai",
+    "Dubai Mall, Dubai",
+    "Dubai Creek, Dubai",
+    "Big Ben, London",
+    "Hyde Park, London",
+    "Trafalgar Square, London"
+]
+
+Generated 198 connectionsArray
+(
+    [0] => BoardingCardSort\Model\Cards\TrainBoardingCard Object
+        (
+            [trainNumber:protected] => 05H
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [seat:protected] => 196T
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [1] => BoardingCardSort\Model\Cards\TrainBoardingCard Object
+        (
+            [trainNumber:protected] => 36U
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [seat:protected] => 495E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [2] => BoardingCardSort\Model\Cards\TrainBoardingCard Object
+        (
+            [trainNumber:protected] => 97U
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Berlin Central Station
+                )
+
+            [seat:protected] => 425Q
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [3] => BoardingCardSort\Model\Cards\TrainBoardingCard Object
+        (
+            [trainNumber:protected] => 43I
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Berlin Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [seat:protected] => 142Q
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [4] => BoardingCardSort\Model\Cards\TrainBoardingCard Object
+        (
+            [trainNumber:protected] => 23C
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Berlin Central Station
+                )
+
+            [seat:protected] => 401I
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [5] => BoardingCardSort\Model\Cards\TrainBoardingCard Object
+        (
+            [trainNumber:protected] => 91N
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Berlin Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [seat:protected] => 15Y
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [6] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 48O
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Gran Via, Madrid
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Plaza Mayor, Madrid
+                )
+
+            [seat:protected] => 4
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [7] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 74J
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Plaza Mayor, Madrid
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Gran Via, Madrid
+                )
+
+            [seat:protected] => 16
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [8] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 68R
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Gran Via, Madrid
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Paseo del Prado
+                )
+
+            [seat:protected] => 26
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [9] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 03W
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Paseo del Prado
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Gran Via, Madrid
+                )
+
+            [seat:protected] => 6
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [10] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 71Z
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Plaza Mayor, Madrid
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Paseo del Prado
+                )
+
+            [seat:protected] => 5
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [11] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 59I
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Paseo del Prado
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Plaza Mayor, Madrid
+                )
+
+            [seat:protected] => 23
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [12] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 80M
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Gran Via, Madrid
+                )
+
+            [seat:protected] => 23
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [13] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 80M
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Gran Via, Madrid
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [seat:protected] => 23
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [14] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 31L
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Plaza Mayor, Madrid
+                )
+
+            [seat:protected] => 23
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [15] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 31L
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Plaza Mayor, Madrid
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [seat:protected] => 23
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [16] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 93P
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Paseo del Prado
+                )
+
+            [seat:protected] => 23
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [17] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 93P
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Paseo del Prado
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [seat:protected] => 23
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [18] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 58Q
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [19] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 58Q
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [20] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 11D
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [21] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 11D
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Madrid Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [22] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 87M
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Passeig de Gracia, Barcelona
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Mercat de la Boqueria, Barcelona
+                )
+
+            [seat:protected] => 23
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [23] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 96C
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Mercat de la Boqueria, Barcelona
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Passeig de Gracia, Barcelona
+                )
+
+            [seat:protected] => 16
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [24] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 10R
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Passeig de Gracia, Barcelona
+                )
+
+            [seat:protected] => 16
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [25] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 10R
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Passeig de Gracia, Barcelona
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [seat:protected] => 16
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [26] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 48L
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Mercat de la Boqueria, Barcelona
+                )
+
+            [seat:protected] => 16
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [27] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 48L
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Mercat de la Boqueria, Barcelona
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [seat:protected] => 16
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [28] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 58Z
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [29] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 58Z
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [30] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 97Z
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [31] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 97Z
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Barcelona Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [32] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 92D
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Berlin Zoological Garden
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Friedrichstrasse
+                )
+
+            [seat:protected] => 8
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [33] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 34Y
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Friedrichstrasse
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Berlin Zoological Garden
+                )
+
+            [seat:protected] => 12
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [34] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 73N
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Berlin Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Berlin Zoological Garden
+                )
+
+            [seat:protected] => 12
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [35] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 73N
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Berlin Zoological Garden
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Berlin Central Station
+                )
+
+            [seat:protected] => 12
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [36] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 55A
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Berlin Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Friedrichstrasse
+                )
+
+            [seat:protected] => 12
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [37] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 55A
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Friedrichstrasse
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Berlin Central Station
+                )
+
+            [seat:protected] => 12
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [38] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 08T
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Berlin Central Station
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [39] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 08T
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Berlin Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [40] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 29Q
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Stockholm Palace, Stockholm
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Nobel Museum, Sockholm
+                )
+
+            [seat:protected] => 17
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [41] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 95E
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Nobel Museum, Sockholm
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Stockholm Palace, Stockholm
+                )
+
+            [seat:protected] => 8
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [42] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 95N
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Stockholm Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Stockholm Palace, Stockholm
+                )
+
+            [seat:protected] => 8
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [43] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 95N
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Stockholm Palace, Stockholm
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Stockholm Central Station
+                )
+
+            [seat:protected] => 8
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [44] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 35U
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Stockholm Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Nobel Museum, Sockholm
+                )
+
+            [seat:protected] => 8
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [45] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 35U
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Nobel Museum, Sockholm
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Stockholm Central Station
+                )
+
+            [seat:protected] => 8
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [46] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 47Q
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Stockholm Central Station
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [47] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 47Q
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Stockholm Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [48] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 44H
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Empire State Building, New York
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Central Park, New York
+                )
+
+            [seat:protected] => 13
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [49] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 59G
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Central Park, New York
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Empire State Building, New York
+                )
+
+            [seat:protected] => 3
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [50] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 67V
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => New-York Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Empire State Building, New York
+                )
+
+            [seat:protected] => 3
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [51] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 67V
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Empire State Building, New York
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => New-York Central Station
+                )
+
+            [seat:protected] => 3
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [52] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 52X
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => New-York Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Central Park, New York
+                )
+
+            [seat:protected] => 3
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [53] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 52X
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Central Park, New York
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => New-York Central Station
+                )
+
+            [seat:protected] => 3
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [54] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 83N
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => New-York Central Station
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [55] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 83N
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => New-York Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [56] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 31P
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => New-York Central Station
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [57] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 31P
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => New-York Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [58] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 92B
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Deira, Dubai
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Mall, Dubai
+                )
+
+            [seat:protected] => 10
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [59] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 04M
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Mall, Dubai
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Deira, Dubai
+                )
+
+            [seat:protected] => 9
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [60] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 21G
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Deira, Dubai
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Creek, Dubai
+                )
+
+            [seat:protected] => 17
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [61] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 23G
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Creek, Dubai
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Deira, Dubai
+                )
+
+            [seat:protected] => 20
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [62] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 79A
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Mall, Dubai
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Creek, Dubai
+                )
+
+            [seat:protected] => 24
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [63] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 48A
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Creek, Dubai
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Mall, Dubai
+                )
+
+            [seat:protected] => 30
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [64] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 08D
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Dubai Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Deira, Dubai
+                )
+
+            [seat:protected] => 30
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [65] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 08D
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Deira, Dubai
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Dubai Central Station
+                )
+
+            [seat:protected] => 30
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [66] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 20H
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Dubai Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Mall, Dubai
+                )
+
+            [seat:protected] => 30
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [67] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 20H
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Mall, Dubai
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Dubai Central Station
+                )
+
+            [seat:protected] => 30
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [68] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 54L
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Dubai Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Creek, Dubai
+                )
+
+            [seat:protected] => 30
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [69] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 54L
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Dubai Creek, Dubai
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Dubai Central Station
+                )
+
+            [seat:protected] => 30
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [70] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 84G
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Dubai Central Station
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [71] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 84G
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => Dubai Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [72] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 55T
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Big Ben, London
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Hyde Park, London
+                )
+
+            [seat:protected] => 3
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [73] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 40I
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Hyde Park, London
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Big Ben, London
+                )
+
+            [seat:protected] => 18
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [74] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 80B
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Big Ben, London
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Trafalgar Square, London
+                )
+
+            [seat:protected] => 12
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [75] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 43J
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Trafalgar Square, London
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Big Ben, London
+                )
+
+            [seat:protected] => 4
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [76] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 20X
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Hyde Park, London
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Trafalgar Square, London
+                )
+
+            [seat:protected] => 3
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [77] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 63O
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Trafalgar Square, London
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Hyde Park, London
+                )
+
+            [seat:protected] => 15
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [78] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 28X
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => London Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Big Ben, London
+                )
+
+            [seat:protected] => 15
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [79] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 28X
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Big Ben, London
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => London Central Station
+                )
+
+            [seat:protected] => 15
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [80] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 92Y
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => London Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Hyde Park, London
+                )
+
+            [seat:protected] => 15
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [81] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 92Y
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Hyde Park, London
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => London Central Station
+                )
+
+            [seat:protected] => 15
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [82] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 16A
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => London Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Trafalgar Square, London
+                )
+
+            [seat:protected] => 15
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [83] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 16A
+            [origin:protected] => BoardingCardSort\Model\Places\Spot Object
+                (
+                    [name:protected] => Trafalgar Square, London
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => London Central Station
+                )
+
+            [seat:protected] => 15
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [84] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 14X
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => London Central Station
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [85] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 14X
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => London Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [86] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 55Q
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => London Central Station
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [87] => BoardingCardSort\Model\Cards\BusBoardingCard Object
+        (
+            [busNumber:protected] => 55Q
+            [origin:protected] => BoardingCardSort\Model\Places\RailwayStation Object
+                (
+                    [name:protected] => London Central Station
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [seat:protected] => 
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [88] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => SR562
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 4
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [seat:protected] => 6E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [89] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => KF458
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 13
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [seat:protected] => 28D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [90] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => SC745
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 27
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [seat:protected] => 2A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [91] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => BX806
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 15
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [seat:protected] => 5B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [92] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => TF837
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 8
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [seat:protected] => 21E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [93] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => CA022
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 23
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [seat:protected] => 37D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [94] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => ZV525
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 1
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [seat:protected] => 31B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [95] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => AN111
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 28
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [seat:protected] => 17F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [96] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => KC282
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 19
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [seat:protected] => 15B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [97] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => KQ032
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 4
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [seat:protected] => 28A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [98] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => EI960
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 1
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [seat:protected] => 37E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [99] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => YQ232
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 24
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [seat:protected] => 31E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [100] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => DO652
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 20
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [seat:protected] => 34C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [101] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => RO419
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 17
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [seat:protected] => 10C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [102] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => CT227
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 21
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [seat:protected] => 27F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [103] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => XZ319
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 3
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [seat:protected] => 32C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [104] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => FF762
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 9
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [seat:protected] => 23D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [105] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => PU305
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 4
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [seat:protected] => 14E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [106] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => VL732
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 11
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [seat:protected] => 21E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [107] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => CR076
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 18
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barajas international airport
+                )
+
+            [seat:protected] => 10F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [108] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => AW803
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 3
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [seat:protected] => 29B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [109] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => RK820
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 24
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [seat:protected] => 34E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [110] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => LD294
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 9
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [seat:protected] => 15F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [111] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => EU040
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 6
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [seat:protected] => 34C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [112] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => MS404
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 9
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [seat:protected] => 18C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [113] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => YQ407
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 13
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [seat:protected] => 34A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [114] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => LI592
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 9
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [seat:protected] => 7E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [115] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => KK067
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 12
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [seat:protected] => 28B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [116] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => SU980
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 23
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [seat:protected] => 36E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [117] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => CL229
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 20
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [seat:protected] => 14D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [118] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => SW728
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 11
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [seat:protected] => 22E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [119] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => FT815
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 13
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [seat:protected] => 19C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [120] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => TS526
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 1
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [seat:protected] => 28F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [121] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => XL685
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 1
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [seat:protected] => 23D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [122] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => FC683
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 8
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [seat:protected] => 4B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [123] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => JT214
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 23
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [seat:protected] => 14A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [124] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => HH644
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 12
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [seat:protected] => 27E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [125] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => IC826
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 24
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Cuatro Vientos Airport
+                )
+
+            [seat:protected] => 25A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [126] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => ZE936
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 6
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [seat:protected] => 14C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [127] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => YY389
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 25
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [seat:protected] => 2E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [128] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => YP503
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 16
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [seat:protected] => 10E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [129] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => IJ685
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 19
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [seat:protected] => 17C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [130] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => BP539
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 13
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [seat:protected] => 35B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [131] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => LU405
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 3
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [seat:protected] => 22E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [132] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => VH753
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 21
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [seat:protected] => 23B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [133] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => XP661
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 30
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [seat:protected] => 23D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [134] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => LN036
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 25
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [seat:protected] => 19C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [135] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => JI813
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 12
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [seat:protected] => 37D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [136] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => UU429
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 17
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [seat:protected] => 1F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [137] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => AX044
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 25
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [seat:protected] => 13B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [138] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => YC348
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 27
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [seat:protected] => 20E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [139] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => XW859
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 2
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [seat:protected] => 22C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [140] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => OS301
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 19
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [seat:protected] => 15B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [141] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => CY475
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 30
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Barcelona International Airport
+                )
+
+            [seat:protected] => 23F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [142] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => PX261
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 27
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [seat:protected] => 7A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [143] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => YY396
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 28
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [seat:protected] => 32A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [144] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => EN330
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 30
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [seat:protected] => 8F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [145] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => RT894
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 24
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [seat:protected] => 4F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [146] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => KM149
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 26
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [seat:protected] => 33B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [147] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => UL825
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 10
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [seat:protected] => 17F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [148] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => LB436
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 19
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [seat:protected] => 35F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [149] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => OC747
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 18
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [seat:protected] => 18E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [150] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => SC394
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 29
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [seat:protected] => 27A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [151] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => OG115
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 21
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [seat:protected] => 30F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [152] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => CD546
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 27
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [seat:protected] => 20E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [153] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => SP692
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 11
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [seat:protected] => 18E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [154] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => JO882
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 15
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [seat:protected] => 7C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [155] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => RC998
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 24
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Girona-Costa Brava Airport
+                )
+
+            [seat:protected] => 28A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [156] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => SO338
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 30
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [seat:protected] => 14D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [157] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => WE361
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 6
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [seat:protected] => 30B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [158] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => NA391
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 23
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [seat:protected] => 27D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [159] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => FF615
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 9
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [seat:protected] => 18C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [160] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => FT125
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 5
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [seat:protected] => 31A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [161] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => IL969
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 16
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [seat:protected] => 20D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [162] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => AI125
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 25
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [seat:protected] => 17C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [163] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => CA335
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 30
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [seat:protected] => 36E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [164] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => KI476
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 21
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [seat:protected] => 27A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [165] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => EQ538
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 28
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [seat:protected] => 18D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [166] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => IY488
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 7
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [seat:protected] => 25B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [167] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => UN656
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 4
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Berlin Tegel Airport
+                )
+
+            [seat:protected] => 30F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [168] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => ET063
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 8
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [seat:protected] => 26A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [169] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => KH264
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 2
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [seat:protected] => 10C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [170] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => UG793
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 27
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [seat:protected] => 13A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [171] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => HK704
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 8
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [seat:protected] => 15F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [172] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => RN830
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 8
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [seat:protected] => 26E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [173] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => VE111
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 20
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [seat:protected] => 10B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [174] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => AN151
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 29
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [seat:protected] => 2B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [175] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => VR208
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 7
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [seat:protected] => 12B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [176] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => UM594
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 2
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [seat:protected] => 22F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [177] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => UM195
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 22
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Stockholm Arlanda Airport
+                )
+
+            [seat:protected] => 24A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [178] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => AH562
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 28
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [seat:protected] => 1F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [179] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => JS128
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 5
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [seat:protected] => 30C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [180] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => EH594
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 24
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [seat:protected] => 29E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [181] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => XD624
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 20
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [seat:protected] => 1D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [182] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => AK232
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 6
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [seat:protected] => 11E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [183] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => RS119
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 25
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [seat:protected] => 7C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [184] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => PI006
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 8
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [seat:protected] => 34F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [185] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => IJ722
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 29
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => JFK Airport
+                )
+
+            [seat:protected] => 30D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [186] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => EZ070
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 16
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [seat:protected] => 22F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [187] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => PU416
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 26
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [seat:protected] => 8B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [188] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => BK461
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 14
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [seat:protected] => 5F
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [189] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => SZ617
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 12
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [seat:protected] => 6A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [190] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => QP860
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 27
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [seat:protected] => 4D
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [191] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => QT246
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 28
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => La Guardia Airport
+                )
+
+            [seat:protected] => 11E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [192] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => KM258
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 18
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [seat:protected] => 19B
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [193] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => EA589
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 9
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [seat:protected] => 28E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [194] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => PN810
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 2
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [seat:protected] => 17A
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [195] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => IF273
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 23
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Dubai International Airport
+                )
+
+            [seat:protected] => 37E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [196] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => GY165
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 23
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [seat:protected] => 35E
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+    [197] => BoardingCardSort\Model\Cards\FlightBoardingCard Object
+        (
+            [flightNumber:protected] => VE053
+            [bookingNumber:protected] => 00000
+            [gate:protected] => 14
+            [baggadeDropCounter:protected] => 
+            [origin:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Gatwick Airport
+                )
+
+            [destination:protected] => BoardingCardSort\Model\Places\Airport Object
+                (
+                    [name:protected] => Heathrow Airport
+                )
+
+            [seat:protected] => 24C
+            [previousCard:protected] => 
+            [nextCard:protected] => 
+        )
+
+)
+.                                                                   1 / 1 (100%)
+
+Time: 85 ms, Memory: 6.00MB
+
+OK (1 test, 1 assertion)

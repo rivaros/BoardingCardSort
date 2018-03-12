@@ -1,0 +1,114 @@
+<?php
+
+namespace BoardingCardSort\Model\Cards;
+
+use BoardingCardSort\Model\Places\AbstractPlace;
+
+/**
+ * Class AbstractBoardingCard
+ * @package AppBundle\Model
+ * @author Ross Ivantsiv <ross@proofpilot.com>
+ */
+abstract class AbstractBoardingCard
+{
+    /** @var  AbstractPlace */
+    protected $origin;
+
+    /** @var  AbstractPlace */
+    protected $destination;
+
+    /** @var  string */
+    protected $seat;
+
+    /**
+     * Used by srt algo
+     *
+     * @var  boolean
+     */
+    protected $visited;
+
+
+    /**
+     * If card was visited by sort algorithm
+     *
+     * @return bool
+     */
+    public function isVisited(): bool
+    {
+        return $this->visited;
+    }
+
+    /**
+     * Mark card as visited by sort algorithm
+     *
+     * @param bool $visited
+     */
+    public function setVisited(bool $visited)
+    {
+        $this->visited = $visited;
+    }
+
+    /**
+     * AbstractBoardingCard constructor.
+     * @param AbstractPlace $origin
+     * @param AbstractPlace $destination
+     * @param string $seat
+     */
+    public function __construct(AbstractPlace $origin, AbstractPlace $destination, string $seat = null)
+    {
+        $this->origin = $origin;
+        $this->destination = $destination;
+        $this->seat = $seat;
+        $this->visited = false;
+    }
+
+    /**
+     * @return string
+     */
+    public function getSeat(): string
+    {
+        return $this->seat;
+    }
+
+    /**
+     * @param string $seat
+     */
+    public function setSeat(string $seat)
+    {
+        $this->seat = $seat;
+    }
+
+    /**
+     * @return AbstractPlace
+     */
+    public function getOrigin(): AbstractPlace
+    {
+        return $this->origin;
+    }
+
+    /**
+     * @param AbstractPlace $origin
+     */
+    public function setOrigin(AbstractPlace $origin)
+    {
+        $this->origin = $origin;
+    }
+
+    /**
+     * @return AbstractPlace
+     */
+    public function getDestination(): AbstractPlace
+    {
+        return $this->destination;
+    }
+
+    /**
+     * @param AbstractPlace $destination
+     */
+    public function setDestination(AbstractPlace $destination)
+    {
+        $this->destination = $destination;
+    }
+
+
+}

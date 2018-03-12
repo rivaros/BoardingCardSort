@@ -1,0 +1,133 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: ross
+ * Date: 3/11/18
+ * Time: 4:40 PM
+ */
+
+namespace BoardingCardSort\Model\Cards;
+
+use BoardingCardSort\Model\Places\AbstractPlace;
+
+/**
+ * Class FlightBoardingCard
+ * @package AppBundle\Model\Cards
+ * @author Ross Ivantsiv <ross@proofpilot.com>
+ */
+class FlightBoardingCard extends AbstractBoardingCard
+{
+
+    /** @var  string */
+    protected $flightNumber;
+
+    /**
+     * If flight cards have the same bookingNumber code, they are considered connected flights (luggage is passed through)
+     * @var  string
+     */
+    protected $bookingNumber;
+
+    /**
+     * Number of gate
+     * @var string
+     */
+    protected $gate;
+
+    /**
+     * Number of baggage drop counter
+     * @var  string
+     */
+    protected $baggadeDropCounter;
+
+    /**
+     * FlightBoardingCard constructor.
+     * @param AbstractPlace $origin
+     * @param AbstractPlace $destination
+     * @param string $flightNumber
+     * @param string $seat
+     * @param string $gate
+     * @param string $bookingNumber
+     */
+    public function __construct(AbstractPlace $origin, AbstractPlace $destination, $flightNumber, $seat, $gate, $bookingNumber = null)
+    {
+        parent::__construct($origin, $destination, $seat);
+        $this->flightNumber = $flightNumber;
+        $this->gate = $gate;
+        $this->bookingNumber = $bookingNumber;
+    }
+
+    /**
+     * @return string
+     */
+    public function getBookingNumber(): string
+    {
+        return $this->bookingNumber;
+    }
+
+    /**
+     * @return string
+     */
+    public function getBaggadeDropCounter(): string
+    {
+        return $this->baggadeDropCounter;
+    }
+
+    /**
+     * @param string $counter
+     * @return string
+     */
+    public function setBaggadeDropCounter(string $counter)
+    {
+        $this->baggadeDropCounter = $counter;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getGate()
+    {
+        return $this->gate;
+    }
+
+    /**
+     * @param mixed $gate
+     */
+    public function setGate($gate)
+    {
+        $this->gate = $gate;
+    }
+
+    /**
+     * @return string
+     */
+    public function getSeat(): string
+    {
+        return $this->seat;
+    }
+
+    /**
+     * @param string $seat
+     */
+    public function setSeat(string $seat)
+    {
+        $this->seat = $seat;
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        $str = "From {$this->origin}, take flight {$this->flightNumber} to {$this->destination}. Gate {$this->gate}, seat {$this->seat}.";
+        if ($this->getBaggadeDropCounter()) {
+            $str .= "Baggage drop at ticket counter {$this->baggadeDropCounter}";
+        } else {
+            $str .= "Baggage will we automatically transferred from your last leg.";
+        }
+
+        return $str;
+    }
+
+
+}
+
